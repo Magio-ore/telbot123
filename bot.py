@@ -120,7 +120,7 @@ def weather(message):
         itermen1 = types.KeyboardButton('⬅️ Назад')
         markup.add(itermen1)
 
-        bot.send_message(message.chat.id,"Пивіт погода сьогодні у м.Львові:\n" +
+        bot.send_message(message.chat.id,"Привіт погода сьогодні у м.Львові:\n" +
         t_min + ', ' + t_max + '\n' + text, reply_markup=markup)
 
 def orel(message):
